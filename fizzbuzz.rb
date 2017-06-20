@@ -5,19 +5,19 @@
 # ceux de 3 et 5 par « Fizz Buzz »
 
 # On va juste parcourir les nombres
-# commençant à 1
-# finissant à 100
+# commençant à 1, finissant à 100
 (1..100).each do |n|
   if n % 3 == 0 && n % 5 == 0
-    puts "FizzBuzz"
+    # si les divisions par 3 et par 5 ramènent un reste nul, FizzBuzz
+    print "FizzBuzz - "
   elsif n % 3 == 0
-    # si la division par 3 ramène un reste nul, Fizz
-    puts "Fizz"
+    # sinon si la division par 3 ramène un reste nul, Fizz
+    print "Fizz - "
   elsif n % 5 == 0
     # sinon si la division par 5 ramène un reste nul, Fizz
-    puts "Buzz"
+    print "Buzz - "
   else
     # sinon on affiche le nombre lui-même
-    puts "#{n}"
+    print "#{n} - "
   end
 end
