@@ -6,9 +6,11 @@
 
 # On va juste parcourir les nombres
 # commençant à 1
-# finissant avant 101
-(1...101).each do |n|
-  if n % 3 == 0
+# finissant à 100
+(1..100).each do |n|
+  if n % 3 == 0 && n % 5 == 0
+    puts "FizzBuzz"
+  elsif n % 3 == 0
     # si la division par 3 ramène un reste nul, Fizz
     puts "Fizz"
   elsif n % 5 == 0
