@@ -1,3 +1,7 @@
+Contexte : formation Codeurs Web 18, Bourges 2017
+
+Exercice : premier programme Ruby : le très classique fizz buzz
+
 # Semaine 13
 
 Créez un fichier fizzbuzz.rb. À l'intérieur, écrivez un programme ayant le comportement suivant :
